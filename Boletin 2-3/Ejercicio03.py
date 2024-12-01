@@ -68,7 +68,7 @@ def main():
             pool.starmap(leer_fichero, [(fichero, alumno)] )  # Llamamos al proceso para cada alumno
 
     # Paso 3: Leer las medias y encontrar la máxima
-    leer_medias()  # Este paso no se hace de manera concurrente ya que solo es una operación final
+    leer_medias()  # Este paso no se hace de manera concurrente ya que solo es una operación finala
 
 
 if __name__ == '__main__':
